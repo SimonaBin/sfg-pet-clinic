@@ -51,7 +51,7 @@ public class DataLoader implements CommandLineRunner {
         vet2.setFirstName("Jessie");
         vet2.setLastName("Porter");
 
-        vetService.save(vet2); //John actually put vet1 here but I am sure that was a mistake he didnt catch
+        vetService.save(vet2);
 
         System.out.println("Loaded Vets....");
     }
